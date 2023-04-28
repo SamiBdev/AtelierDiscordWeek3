@@ -110,7 +110,7 @@ body{
 }
 
 .text-final{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .final-part{
@@ -130,8 +130,13 @@ body{
     justify-content: end;
 }
 
-
 .network:hover{
     background-color: #404EED;
     color: #FFF;
+}
+
+.check-img{
+    width: 10em;
+    height: 10em;
+    margin-top: 35px;
 }
