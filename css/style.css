@@ -1,0 +1,137 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/background3.jpg');
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.left-part{
+    background-color: #404EED;
+    width: 30%;
+    padding: 25px;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-part{
+    background-color: #FFFFFF;
+    width: 70%;
+    border-radius: 0px 15px 15px 0px;
+    padding: 2.3em;
+}
+
+.img-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+    letter-spacing: -0.2px;
+    color: #2C2F33;
+    font-weight: 500;
+}
+
+.top-ask{
+    margin-top: 25px;
+}
+
+.main-title{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 55px;
+    line-height: 1.2em;
+}
+
+.subtitle{
+    color: #FFF;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-next{
+    background-color: #404EED;
+    padding: 12px 35px 12px 35px;
+}
+
+.btn-back{
+    padding: 12px 35px 12px 35px;
+}
+
+.step-sb{
+    color: #FFF;
+}
+
+.step-span-sb{
+    background-color: #404EED; 
+}
+
+.step-sb::after{
+    border-color: #404EED !important;
+}
+
+.step-ab::after{
+    border-color: #404eed74 !important;
+}
+
+.step-span-ab{
+    background-color: #404eed74; 
+}
+
+.logo{
+    width: 8em;
+}
+
+.nav-top{
+    margin-top: 90px;
+}
+
+.text-final{
+    margin-top: 20px;
+}
+
+.final-part{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-ds{
+    height: calc(100% - 44px);
+}
+
+.network-bar{
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+}
+
+
+.network:hover{
+    background-color: #404EED;
+    color: #FFF;
+}
